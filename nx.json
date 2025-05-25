@@ -38,6 +38,9 @@
         "style": "css",
         "linter": "none"
       }
+    },
+    "@nx/angular:component": {
+      "style": "css"
     }
   },
   "defaultProject": "sellMyPlot",

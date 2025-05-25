@@ -1,0 +1,17 @@
+<!-- below is reactive form example -->
+<div class="main-container">
+    <div class="mb-4 p-8 child-container">
+        <p-card header="LogIn">
+            <p class="m-0">
+            <form [formGroup]="userProfileLogin" (ngSubmit)="loginSubmit()">
+                <label for="name">Name</label>
+                <input pInputText type="text" formControlName="name"><br>
+                <label for="password">Password</label><br>
+                <p-password type="password" formControlName="password" [feedback]="false" /><br>
+                <p-button label="Submit" type="Submit" />
+
+
+            </form>
+        </p-card>
+    </div>
+</div>
